@@ -1,0 +1,6 @@
+describe("TotalhoneBill function",function(){
+    it("Should return 'R7.45'",function(){
+            var _pb =["call" ,"sms", "call", "sms", "sms"];
+        assert.equal(totalPhoneBill("call, sms, call, sms, sms"),"R7.45")
+    })
+})
