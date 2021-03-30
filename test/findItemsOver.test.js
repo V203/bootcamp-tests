@@ -1,4 +1,4 @@
-describe('The find items over function' , function(){
+describe('findItemsOver' , function(){
     it('Expected to find all the items over 20' , function(){
        
 
