@@ -1,4 +1,4 @@
-describe("Years ago function",function(){
+describe("yearsAgo function",function(){
 	it("the exesice should equal 2000",function(){
 		assert.equal(yearsAgo(2000),21)
 	})

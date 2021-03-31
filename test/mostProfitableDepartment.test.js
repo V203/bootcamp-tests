@@ -16,7 +16,7 @@ describe("mostPrifitableDepartment function",function(){
         {department: 'outdoor', sales: 12006, day: 'Friday'},
         {department: 'carpentry', sales: 16109, day: 'Friday'}
     ];
-    it("expected to return outdorr",function(){
+    it("expected to return outdoor",function(){
         assert.equal(mostProfitableDepartment(salesData),"outdoor")
     })
 
