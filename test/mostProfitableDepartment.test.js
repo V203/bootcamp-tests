@@ -21,6 +21,6 @@ describe("mostPrifitableDepartment function",function(){
     })
 
     it("expected to return false if not equal outdoor",function(){
-        assert.equal(mostProfitableDepartment(" "),false)
+        assert.equal(mostProfitableDepartment("finacial"),false)
     })
 })

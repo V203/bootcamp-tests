@@ -5,7 +5,7 @@ describe("regCheck function", function(){
     })
 
     it("Should return false if ends with Something else",function(){
-        assert.equal(regCheck("DC 55 YU GP","??"),false);
+        assert.equal(regCheck("DC 55 YU GJ","Gj"),false);
         
     })
 })

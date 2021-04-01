@@ -3,7 +3,11 @@ describe("isWeekday function",function(){
 		assert.equal(isWeekday("Monday"),true)
 	})
 
-	it("The function should false for weekend",function(){
-		assert.equal(isWeekday("S"),false)
+	it("The function should return false for Saturday",function(){
+		assert.equal(isWeekday("Saturday"),false)
+	})
+
+	it("The function should return false for Sunday",function(){
+		assert.equal(isWeekday("Sunday"),false)
 	})
 })

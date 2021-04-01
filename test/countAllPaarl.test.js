@@ -5,7 +5,7 @@ describe("countAllPaarl function",function(){
 
     
         it("Should return true if starts with 'CJ' ",function(){
-            assert.equal(countAllPaarl("CJ"),true)
+            assert.equal(countAllPaarl("CJ 223 332"),true)
         })
         
     

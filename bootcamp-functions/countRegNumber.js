@@ -1,4 +1,4 @@
-function countRegNumber(regNum){
+var count = function countRegNumber(regNum){
     
  return regNum.split(',').length;
 }
