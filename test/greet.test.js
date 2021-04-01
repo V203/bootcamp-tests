@@ -4,8 +4,11 @@ describe('The greet function', function(){
         assert.equal('Hello, Andrew', greet('Andrew'));
     });
     
-    var name ;
-    it('Should greet based on taking in from variable', function(){
-        assert.equal(greet(name),"Hello, "+name)
+    var name ="Sam" ;
+    it('To veryify that is not name == "name"', function(){
+       // assert.equal(greet(name),"Hello, "+name)
+        assert.notEqual(name, "name","Testing in progress");
     });
+
+
 });
