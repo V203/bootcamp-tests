@@ -1,17 +1,16 @@
-var countAllPaarl = function(rgNum1){
-  var rgNum = rgNum1.split(", ");
-  //console.log(rgNum);
-  var temp = 0;
-  var reg = rgNum;
+var regNum1 = "";
 
- for(var i = 0;i < reg.length;i++){
-  //var reg = rgNum[i].trim();
-   if(reg[i].startsWith("CJ")){
-   temp++;
-   }
- }
+function countAllPaarl(regNum1){	
+  var rgNum = regNum1.split(", ");
+
+  var temp =[];
   
-  console.log(temp)
+ for(var i = 0;i < rgNum.length;i++){
+     if(rgNum[i].startsWith("CJ")){
+     temp.push(rgNum[i]);
+     
+         }
+     }
   
-  return temp;
+  	return temp.length; 
 }

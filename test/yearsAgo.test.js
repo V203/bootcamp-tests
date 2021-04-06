@@ -1,9 +1,9 @@
 describe("yearsAgo function",function(){
-	it("the exesice should equal 2000",function(){
-		assert.equal(yearsAgo(2000),21)
+	it("the exesice should equal 20",function(){
+		assert.equal(yearsAgo(2001),20)
 	})
 
-	it("expected to equal 21",function(){
-		assert.equal(yearsAgo(21),2000)
+	it("The year 1976 should return 45",function(){
+		assert.equal(yearsAgo(1976),45)
 	})
 })
